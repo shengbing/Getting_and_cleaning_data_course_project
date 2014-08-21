@@ -1,0 +1,250 @@
+
+=========================================
+- Dimension of tidy data set:
+  180 X 68. There are 30 individuals and 6 activities, so the number of subject-activity pairs are 180.
+
+
+=========================================
+- Variable names:
+
+[1] "activity"                                 "subject"                                 
+ [3] "timebodyaccelerationmeanx"                "timebodyaccelerationmeany"               
+ [5] "timebodyaccelerationmeanz"                "timebodyaccelerationstdx"                
+ [7] "timebodyaccelerationstdy"                 "timebodyaccelerationstdz"                
+ [9] "timegravityaccelerationmeanx"             "timegravityaccelerationmeany"            
+[11] "timegravityaccelerationmeanz"             "timegravityaccelerationstdx"             
+[13] "timegravityaccelerationstdy"              "timegravityaccelerationstdz"             
+[15] "timebodyaccelerationjerkmeanx"            "timebodyaccelerationjerkmeany"           
+[17] "timebodyaccelerationjerkmeanz"            "timebodyaccelerationjerkstdx"            
+[19] "timebodyaccelerationjerkstdy"             "timebodyaccelerationjerkstdz"            
+[21] "timebodygyroscopemeanx"                   "timebodygyroscopemeany"                  
+[23] "timebodygyroscopemeanz"                   "timebodygyroscopestdx"                   
+[25] "timebodygyroscopestdy"                    "timebodygyroscopestdz"                   
+[27] "timebodygyroscopejerkmeanx"               "timebodygyroscopejerkmeany"              
+[29] "timebodygyroscopejerkmeanz"               "timebodygyroscopejerkstdx"               
+[31] "timebodygyroscopejerkstdy"                "timebodygyroscopejerkstdz"               
+[33] "timebodyaccelerationmagmean"              "timebodyaccelerationmagstd"              
+[35] "timegravityaccelerationmagmean"           "timegravityaccelerationmagstd"           
+[37] "timebodyaccelerationjerkmagmean"          "timebodyaccelerationjerkmagstd"          
+[39] "timebodygyroscopemagmean"                 "timebodygyroscopemagstd"                 
+[41] "timebodygyroscopejerkmagmean"             "timebodygyroscopejerkmagstd"             
+[43] "frequencybodyaccelerationmeanx"           "frequencybodyaccelerationmeany"          
+[45] "frequencybodyaccelerationmeanz"           "frequencybodyaccelerationstdx"           
+[47] "frequencybodyaccelerationstdy"            "frequencybodyaccelerationstdz"           
+[49] "frequencybodyaccelerationjerkmeanx"       "frequencybodyaccelerationjerkmeany"      
+[51] "frequencybodyaccelerationjerkmeanz"       "frequencybodyaccelerationjerkstdx"       
+[53] "frequencybodyaccelerationjerkstdy"        "frequencybodyaccelerationjerkstdz"       
+[55] "frequencybodygyroscopemeanx"              "frequencybodygyroscopemeany"             
+[57] "frequencybodygyroscopemeanz"              "frequencybodygyroscopestdx"              
+[59] "frequencybodygyroscopestdy"               "frequencybodygyroscopestdz"              
+[61] "frequencybodyaccelerationmagmean"         "frequencybodyaccelerationmagstd"         
+[63] "frequencybodybodyaccelerationjerkmagmean" "frequencybodybodyaccelerationjerkmagstd" 
+[65] "frequencybodybodygyroscopemagmean"        "frequencybodybodygyroscopemagstd"        
+[67] "frequencybodybodygyroscopejerkmagmean"    "frequencybodybodygyroscopejerkmagstd"  
+
+ =========================================
+ - range of values:
+ 
+$subject
+[1]  1 30
+
+$timebodyaccelerationmeanx
+[1] 0.2215982 0.3014610
+
+$timebodyaccelerationmeany
+[1] -0.040513953 -0.001308288
+
+$timebodyaccelerationmeanz
+[1] -0.15251390 -0.07537847
+
+$timebodyaccelerationstdx
+[1] -0.9960686  0.6269171
+
+$timebodyaccelerationstdy
+[1] -0.9902409  0.6169370
+
+$timebodyaccelerationstdz
+[1] -0.9876587  0.6090179
+
+$timegravityaccelerationmeanx
+[1] -0.6800432  0.9745087
+
+$timegravityaccelerationmeany
+[1] -0.4798948  0.9565938
+
+$timegravityaccelerationmeanz
+[1] -0.4950887  0.9578730
+
+$timegravityaccelerationstdx
+[1] -0.9967642 -0.8295549
+
+$timegravityaccelerationstdy
+[1] -0.9942476 -0.6435784
+
+$timegravityaccelerationstdz
+[1] -0.9909572 -0.6101612
+
+$timebodyaccelerationjerkmeanx
+[1] 0.0426881 0.1301930
+
+$timebodyaccelerationjerkmeany
+[1] -0.03868721  0.05681859
+
+$timebodyaccelerationjerkmeanz
+[1] -0.06745839  0.03805336
+
+$timebodyaccelerationjerkstdx
+[1] -0.9946045  0.5442730
+
+$timebodyaccelerationjerkstdy
+[1] -0.9895136  0.3553067
+
+$timebodyaccelerationjerkstdz
+[1] -0.99328831  0.03101571
+
+$timebodygyroscopemeanx
+[1] -0.2057754  0.1927045
+
+$timebodygyroscopemeany
+[1] -0.20420536  0.02747076
+
+$timebodygyroscopemeanz
+[1] -0.0724546  0.1791021
+
+$timebodygyroscopestdx
+[1] -0.9942766  0.2676572
+
+$timebodygyroscopestdy
+[1] -0.9942105  0.4765187
+
+$timebodygyroscopestdz
+[1] -0.9855384  0.5648758
+
+$timebodygyroscopejerkmeanx
+[1] -0.15721254 -0.02209163
+
+$timebodygyroscopejerkmeany
+[1] -0.07680899 -0.01320228
+
+$timebodygyroscopejerkmeanz
+[1] -0.092499853 -0.006940664
+
+$timebodygyroscopejerkstdx
+[1] -0.9965425  0.1791486
+
+$timebodygyroscopejerkstdy
+[1] -0.9970816  0.2959459
+
+$timebodygyroscopejerkstdz
+[1] -0.9953808  0.1932065
+
+$timebodyaccelerationmagmean
+[1] -0.9864932  0.6446043
+
+$timebodyaccelerationmagstd
+[1] -0.9864645  0.4284059
+
+$timegravityaccelerationmagmean
+[1] -0.9864932  0.6446043
+
+$timegravityaccelerationmagstd
+[1] -0.9864645  0.4284059
+
+$timebodyaccelerationjerkmagmean
+[1] -0.9928147  0.4344904
+
+$timebodyaccelerationjerkmagstd
+[1] -0.9946469  0.4506121
+
+$timebodygyroscopemagmean
+[1] -0.9807408  0.4180046
+
+$timebodygyroscopemagstd
+[1] -0.9813727  0.2999760
+
+$timebodygyroscopejerkmagmean
+[1] -0.99732253  0.08758166
+
+$timebodygyroscopejerkmagstd
+[1] -0.9976661  0.2501732
+
+$frequencybodyaccelerationmeanx
+[1] -0.9952499  0.5370120
+
+$frequencybodyaccelerationmeany
+[1] -0.9890343  0.5241877
+
+$frequencybodyaccelerationmeanz
+[1] -0.9894739  0.2807360
+
+$frequencybodyaccelerationstdx
+[1] -0.9966046  0.6585065
+
+$frequencybodyaccelerationstdy
+[1] -0.9906804  0.5601913
+
+$frequencybodyaccelerationstdz
+[1] -0.9872248  0.6871242
+
+$frequencybodyaccelerationjerkmeanx
+[1] -0.9946308  0.4743173
+
+$frequencybodyaccelerationjerkmeany
+[1] -0.9893988  0.2767169
+
+$frequencybodyaccelerationjerkmeanz
+[1] -0.9920184  0.1577757
+
+$frequencybodyaccelerationjerkstdx
+[1] -0.9950738  0.4768039
+
+$frequencybodyaccelerationjerkstdy
+[1] -0.9904681  0.3497713
+
+$frequencybodyaccelerationjerkstdz
+[1] -0.993107760 -0.006236475
+
+$frequencybodygyroscopemeanx
+[1] -0.9931226  0.4749624
+
+$frequencybodygyroscopemeany
+[1] -0.9940255  0.3288170
+
+$frequencybodygyroscopemeanz
+[1] -0.9859578  0.4924144
+
+$frequencybodygyroscopestdx
+[1] -0.9946522  0.1966133
+
+$frequencybodygyroscopestdy
+[1] -0.9943531  0.6462336
+
+$frequencybodygyroscopestdz
+[1] -0.9867253  0.5224542
+
+$frequencybodyaccelerationmagmean
+[1] -0.9868006  0.5866376
+
+$frequencybodyaccelerationmagstd
+[1] -0.9876485  0.1786846
+
+$frequencybodybodyaccelerationjerkmagmean
+[1] -0.9939983  0.5384048
+
+$frequencybodybodyaccelerationjerkmagstd
+[1] -0.9943667  0.3163464
+
+$frequencybodybodygyroscopemagmean
+[1] -0.9865352  0.2039798
+
+$frequencybodybodygyroscopemagstd
+[1] -0.9814688  0.2366597
+
+$frequencybodybodygyroscopejerkmagmean
+[1] -0.9976174  0.1466186
+
+ =========================================
+-  Description of the variables:
+
+- All variables are mean or standard deviation (std) for a purticular subject-activity pairs.
+- x, y, z following mean or std refer to that of x, y, or z axis.
