@@ -9,7 +9,7 @@ The dataset includes the following files:
 
 - 'run_analysis.R': Scripts that eventually generate tidy data that are submitted.
 
-- 'features.txt': List of all features.
+- 'tidydata.txt': List of all features.
 - 'codebook.txt': description of the contents of the tidy data file
 
 =========================================
