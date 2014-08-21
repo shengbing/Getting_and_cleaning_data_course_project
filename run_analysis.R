@@ -93,7 +93,7 @@ dim(first_dataset)
 #variable for each activity and each subject. 
 num_cols = dim(first_dataset)[2];
 second_dataset = aggregate(first_dataset[,2:num_cols-1], list(first_dataset[, num_cols], first_dataset[, 1]), mean)
-second_dataset$Group.2 = NULL;
-names(second_dataset)[1] = 'activity';
+second_dataset$Group.2 = NULL;  #remove duplicated collumn
+names(second_dataset)[1] = 'activity';   #renanme first collumn
 write.table(second_dataset, file = './tidydata.txt', row.name = F)
 
